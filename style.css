@@ -1,0 +1,67 @@
+.register-form{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: 1px solid ;
+    max-width: 400px;
+}
+
+.register-form input {
+    padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.register-form button:hover{
+    background-color: blue;
+    
+}
+
+.register-form button{
+  background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+        width: fit-content;
+  justify-self: center;
+    
+}
+
+/* bai2 */
+.contact-form{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: 1px solid ;
+    max-width: 400px;
+}
+
+.contact-form input{
+    padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.contact-form button:hover{
+    background-color: blue;
+    
+}
+
+.contact-form button{
+  background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    
+    width: fit-content;
+  justify-self: center;
+}
+
